@@ -52,6 +52,7 @@ $config = [
         ],
     ],
     'params' => $params,
+    'defaultRoute' => 'users/index',
 ];
 
 if (YII_ENV_DEV) {

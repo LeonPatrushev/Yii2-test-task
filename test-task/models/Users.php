@@ -13,7 +13,9 @@ class Users extends ActiveRecord
         return [
             'name' => 'Имя',
             'surname' => 'Фамилия',
+            'image' => 'Фото',
             'imageFile' => 'Фото',
+            'password' => 'Пароль'
         ];
     }
 
